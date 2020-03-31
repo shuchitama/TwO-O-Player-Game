@@ -4,7 +4,6 @@ require './game'
 
 
 game = Game.new
-# puts game.ongoing
 while !game.gameover
   question = Question.new
   puts "#{game.current_player.name}: #{question.ask} "
