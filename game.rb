@@ -1,5 +1,4 @@
 require './player'
-require './question'
 
 class Game
   attr_accessor :p1, :p2, :current_player
